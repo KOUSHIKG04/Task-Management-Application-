@@ -23,46 +23,39 @@ This is a simple Task Management Application that allows users to manage their t
 
 ## Installation
 
-1. Clone the repository to your local machine:
+- **1. Clone the repository to your local machine:**
 
    ```bash
    git clone https://github.com/your-username/task-management-app.git
    
-2.Install dependencies:
+- **2.Install dependencies:**
+  ```node
   cd task-management-app
   npm install
 
-3.Set up PostgreSQL database:
-  Create a new database named "PERMALIST".
-  Set up a table named "items" with columns for task IDs and titles.
+- **3.Set up PostgreSQL database:**
+  - Create a new database named "PERMALIST".
+  - Set up a table named "items" with columns for task IDs and titles.
   
-4.Configure database connection:
-  Update the database connection details in index.js file.
+- **4.Configure database connection:**
+  - Update the database connection details in index.js file.
 
-5.Start the server:
+- **5.Start the server:**
+  ``` npm
   npm start/nodemon index.js
 
-6.Open the application in your browser:
-  http://localhost:3000
+- **6.Open the application in your browser:**
+  - http://localhost:3000
 
-7.Usage
-  Navigate to the landing page to view and manage tasks.
-  Click on the "+" button to add a new task.
-  Click on the pencil icon to edit a task.
-  Click on the checkbox to mark a task as completed (and delete if needed).
-  The application is responsive and can be used on both desktop and mobile devices.
+- **7.Usage**
+  - Navigate to the landing page to view and manage tasks.
+  - Click on the "+" button to add a new task.
+  - Click on the pencil icon to edit a task.
+  - Click on the checkbox to mark a task as completed (and delete if needed).
+  - The application is responsive and can be used on both desktop and mobile devices.
 
 
-8.Folder Structure
+## Drive Link for Assesment Demo
+```link
+- https://drive.google.com/drive/folders/1J__DZhiqQdfkhU8OpOC2WWQi_NA91r0X?usp=drive_link
 
-task-management-app/
-│
-├── public/
-│   ├── assets/
-│   │   ├── icons/        # Icon files (e.g., pencil, checkmark)
-│   │   └── styles/       # CSS files (e.g., main.css)
-│   └── views/            # EJS files (e.g., index.ejs, header.ejs, footer.ejs)
-│
-├── index.js              # Express server setup and routes
-├── queries.sql           # SQL queries for database setup
-└── README.md             # Project README file
